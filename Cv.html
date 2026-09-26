@@ -138,6 +138,14 @@
             color: white;
             font-weight: 700;
             box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        .hero-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
         }
 
         .hero h1 {
@@ -620,8 +628,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#references">References</a></li>
+        
             </ul>
             <div style="display: flex; gap: 1rem; align-items: center;">
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
@@ -641,7 +648,9 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
         <div class="container">
-            <div class="hero-avatar">Jay</div>
+            <div class="hero-avatar">
+                <img src="DECENT PIC.jpg" alt="Jaymar C. Lomocso profile avatar">
+            </div>
             <h1>Jaymar C. Lomocso</h1>
             <p class="title">Information Technology</p>
             <p class="bio">Passionate Information Technology student with a strong foundation in software development, algorithms, and problem-solving. Eager to apply my skills in real-world projects and contribute to innovative solutions.</p>
